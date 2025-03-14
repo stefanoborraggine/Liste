@@ -7,7 +7,7 @@ import lombok.ToString;
 @Data
 @AllArgsConstructor
 @ToString
-public class Nodo {
-  private Persona info;
-  private Nodo link;
+public class Nodo<T> {
+  private T info;
+  private Nodo<T> link;
 }

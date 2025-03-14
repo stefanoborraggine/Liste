@@ -5,7 +5,7 @@ import it.armellini.ivsa.liste.Persona;
 public class Avvio {
 
   public static void main(String[] args) {
-    Lista<Persona> miaLista = new Lista<Persona>();
+    Lista<Persona> miaLista = new Lista<>();
     Persona p1 = new Persona("Mario", "Rossi", "RSSMRA...");
     Persona p2 = new Persona("Luigi", "Bianchi", "BNCLGU...");
     Persona p3 = new Persona("Maria", "Rosa", "RSOMRA...");
@@ -15,7 +15,7 @@ public class Avvio {
     
     System.out.println(miaLista);
     
-    Lista<Automobile> miaLista2 = new Lista<Automobile>();
+    Lista<Automobile> miaLista2 = new Lista<>();
     Lista<String> miaListaStringhe = new Lista<>();
   }
 
